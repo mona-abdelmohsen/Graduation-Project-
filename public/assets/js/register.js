@@ -1,0 +1,24 @@
+$(document).ready(function(){
+    $('.input_1').focus(function(){
+        $(this).css("background-color","lightgray")
+    });
+    $('.input_1').blur(function(){
+        $(this).css("background-color","white")
+        });
+    $('.input_2').focus(function(){
+        $(this).css("background-color","lightgray")
+    });
+    $('.input_2').blur(function(){
+        $(this).css("background-color","white")
+        });
+    $('.input_3').focus(function(){
+        $(this).css("background-color","lightgray")
+    });
+    $('.input_3').blur(function(){
+        $(this).css("background-color","white")
+        });
+    
+    $('.login').click(function(){
+        $(this).css("color","red")
+        });
+ });

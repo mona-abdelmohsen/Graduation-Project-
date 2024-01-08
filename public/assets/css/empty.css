@@ -1,0 +1,151 @@
+.form-row{
+    display: flex;
+    padding-top: 15px;
+    padding-right: 30px;
+    
+}
+.form-group{
+    width: 30%;
+    margin-left: 30px;
+}
+/* .endd{
+    text-align: end;
+    
+}
+.xxx{
+    text-align: end;
+} */
+
+
+.row-cols-1{
+    /* margin-left: -20px; */
+}
+.think{
+    
+    background: #C6C5B3;
+   width:100%; 
+  
+  
+}
+.thinking{
+    position: relative;
+    border-radius: 30px;
+    width: 290px !important;
+   height: auto;
+    
+}
+.carousel-item{
+    height: 300px;
+    margin-top: 100px;
+    margin-left:-70px;
+    margin-right: 50px;
+}
+.toop{
+    width: 30px !important;
+    height: 30px !important;
+}
+.images{
+    margin-top: 20px;
+    margin-left: 150px;    
+    display: flex;
+}
+.coment{
+    width:200px;
+   /* height:60px; */
+   text-align: end;
+  
+   font-family: inter;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 30px;
+   color: #1C1C1D;
+   margin-top: 60px;
+}
+.h-100{
+    background: #F5F0C4 !important;
+    border-radius: 20px !important;
+}
+
+.ico{
+    text-align: end;
+
+}
+.fa-star{
+    z-index: 100;
+    color: #1C1C1D;
+}
+.bottom{
+    /* margin-left: 130px; */
+    margin-right: 50%;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    z-index: 99;
+    position: absolute;
+    margin-top: 10px;
+}
+.phone{
+    /* width:1349px; */
+    width: 100%;
+    height:446px;
+     /* rgba(189, 93, 20, 0.5); */
+}
+.row{
+    margin-bottom: 0 !important;
+}
+span.name{
+    position: absolute;
+    margin-right: 25%;
+    width: 150px;
+    height: 40px !important;
+    border-radius: 10px !important;
+    margin-top: 40px;
+    /* margin-left: 80px; */
+    background: none;
+}
+@media(max-width:991px){
+    .thinking3{
+        display: none;
+    }
+    #carouselExampleControlsNoTouching{
+        width: auto !important;
+    }
+    .think{
+        width: auto !important;
+    }
+    #phone{
+        width: 80% !important;
+        width: auto !important;
+    }
+    .phone{
+        width: auto !important;
+        width: 100% !important;
+    }
+    
+}
+@media(max-width:767px){
+    .thinking2,.thinking3{
+        display: none;
+        
+    }
+    .coment{
+        margin-left: -20px !important;
+    }
+    .think{
+        width: auto!important;
+    }
+    #carouselExampleControlsNoTouching{
+        width: auto !important;
+    }
+    .phone{
+        width: 100% !important;
+        /* width: auto !important; */
+        height: 300px;
+    }
+    #phone{
+        width: 50% !important;
+        width: auto !important;
+       
+    }
+}
+

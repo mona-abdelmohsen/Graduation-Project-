@@ -1,0 +1,162 @@
+body {
+    background-color: white !important;
+    /* overflow-y: hidden; */
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none !important;
+
+}
+
+/* ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+} */
+
+/* .header {
+    //display: flex;
+    justify-content: space-between;
+    height: 40px;
+    width: 100vw;
+    background-color: rgb(78, 74, 74);
+    opacity: .9;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+
+} */
+
+.parent,
+.center {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left {
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+
+}
+
+.right {
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-evenly;
+    width: 250px;
+}
+
+ul li {
+    font-size: 25px;
+    color: rgb(249, 249, 254);
+}
+
+.bell,
+.messenger {
+    font-size: 25px;
+    color: rgb(249, 249, 254);
+}
+
+.facebook {
+    color: #BD5D14;
+    font-size: 35px;
+
+}
+
+.search {
+    width: 177px;
+    height: 25px;
+    border-radius: 20px;
+    padding: 10px;
+    border: none;
+    margin-top: 5px;
+}
+
+.image {
+    width: 38Px;
+    height: 38px;
+    border-radius: 50%;
+}
+
+.parent-profile {
+
+    /* border: 2px solid red; */
+    align-items: center;
+
+}
+
+.message {
+    width: 400px;
+    height: auto;
+    background-color: gray;
+    color: white;
+    border-radius: 15px;
+    padding: 5px 15px;
+
+}
+
+.trash,
+.arrow {
+    color: red;
+}
+
+.parent-right {}
+
+.message-icon {
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+
+}
+
+.photo-name {
+    width: 60%;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    
+    /* border: 2px solid red; */
+    display: flex;
+}
+
+.under-message {
+    border-radius: 10px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #c9c6c6;
+}
+
+.all {
+    display: flex;
+}
+
+
+.btn-send {
+    padding: 17px 15px !important;
+}
+
+textarea {
+    cursor: default;
+}
+
+.left-R {
+    height: 100vh;
+    overflow-y: scroll;
+   
+}
+
+.right-R {
+    height: 100vh;
+    overflow-y: scroll;
+}

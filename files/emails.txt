@@ -1,0 +1,9 @@
+php artisan make:mail welcome --markdown=emails.welcome 
+php artisan make:mail NewManager --markdown=emails.NewManager
+/////////////////
+register controller
+  Mail::to($data['email'])->send(new welcome($data['roles_name']));
+          toastr()->success('تم أنشاء الحساب  بنجاح');
+user controller
+   Mail::to($request->input('email'))->send(new NewManager($input('email'),$input('password')));
+

@@ -1,0 +1,123 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.main_page {
+    gap: 5px;
+    grid-template-columns: repeat(12,1fr);
+    display: grid;
+    grid-column: 1/12;
+    align-content: center;
+    text-align: center;
+}
+.main_page .svg-1{
+    display: grid;
+    grid-column: 1/7;
+    width: 100%;
+    height: 100%;
+    grid-row: 1;
+}
+.main_page .svg-2{
+    display: grid;
+    margin: 20%;
+    grid-column: 1/4;
+    width: 80%;
+    height: 50%;
+    grid-row: 1;
+}
+form{
+    display: grid;
+    grid-column: 7/13;
+    grid-row: 1;
+}
+.right{
+    display: grid;
+    grid-template-columns: repeat(6 ,1fr);
+    grid-template-rows: auto;
+    gap: 15px;
+    grid-column: 8/13;
+    grid-row: 1;
+}
+.img_1{
+    display: grid;
+    grid-column: 3/5;
+    width: 90%;
+    margin-top: 10px;
+}
+.right h1{
+    display: grid;
+    grid-column: 3/5;
+    font-family: 'Cairo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+input{
+    width: 100%;
+    display: grid;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #5B5B5B;
+    text-align: end;
+    border: 2px solid #5B5B5B;
+    border-radius: 5px;
+    height: 45px;
+    
+}
+select{
+    direction: rtl;
+    width: 100%;
+    display: grid;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #5B5B5B;
+    border: 2px solid #5B5B5B;
+    border-radius: 5px;
+    height: 45px;
+}
+.input_1{
+    grid-row: 3/4; 
+    grid-column: 4/6;
+}
+.input_2{
+    grid-row: 3/4;
+    grid-column: 2/4;
+}
+.input_3{
+    grid-column: 2/6;
+}
+.input_6{
+    border: 0;
+    margin-top: 5%;
+    background: #E27B2C;
+    border-radius: 7px;
+    font-family: 'Cairo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    color: #FFFFFF;
+    width: 100%;
+    display: grid;
+    grid-column: 2/6;
+    text-align: center;
+}
+span{
+    display: grid;
+    grid-column: 2/6;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: -0.01em;
+    color: #000000;
+    text-align: end;
+}
+span a{
+    display: contents;
+}
+
